@@ -22,9 +22,9 @@ More information about the different options is written below.
 
 ### Options
 Although quickly touched upon above, here are the options explained in detail:
-- **-i <file>**: An input file which the script will read from.  Use a double dash ("--") to specify STDIN.  When specifying STDIN, you can pipe the output of another program to this script.
-- **-o <file>**: An output file where all the filtered passwords are written to.  When specifing "--", this is written to STDOUT, so it can be piped to another command.
-- **-l <minlen-maxlen>**: This specifies the length of the passwords to filter, both inclusive.  The output will only contain words that are not shorter than <minlen> and not longer than <maxlen>.
+- **-i [file]**: An input file which the script will read from.  Use a double dash ("--") to specify STDIN.  When specifying STDIN, you can pipe the output of another program to this script.
+- **-o [file]**: An output file where all the filtered passwords are written to.  When specifing "--", this is written to STDOUT, so it can be piped to another command.
+- **-l [minlen-maxlen]**: This specifies the length of the passwords to filter, both inclusive.  The output will only contain words that are not shorter than <minlen> and not longer than <maxlen>.
 - **-p [slud]**: Password policy, whereby the letters stand for the following: **s**pecial characters, **l**owercase, **u**ppercase, **d**igits.  When specified, the script will only output a word that has at least one of these.
 - **-a**: Only display passwords with ASCII compatible characters.
 - **-v**: verbose output.
